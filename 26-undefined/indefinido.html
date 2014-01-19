@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>JAVASCRIPT</title>
+    </head>
+    <body>
+        <script>
+        //JSON
+        	var usuario = 
+        			{
+        			Nombre: 'Segismundo',
+        			Edad: 100,
+        			Pais: 'Chile',
+        			Mascotas:['Blas', 'Estrella'],
+        			Perfil:
+        				{
+        					Tipo: 'Privado',
+        					Cuenta: 'Premium',
+        				}
+        			};
+        			/*
+        			Si definimos un valor que no existe el resultado es undefined, pero si lo negamos el valor es true y aparece: Si negamos un valor inexistente el valor se cumple
+							
+        			*/
+        			console.log(usuario.ciudad);
+
+        			if (!usuario.ciudad)
+        			{
+        				console.log('Hola');
+        			}
+
+        			if ('ciudad' in usuario)
+        			{
+        				//code
+        				console.log('El usuario tiene ciudad')
+        			}
+        			else
+        			{
+        				console.log('El usuario no tiene ciudad')
+        			}
+        </script>
+    </body>
+</html>

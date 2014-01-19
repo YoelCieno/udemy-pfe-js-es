@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+		<head>
+				<meta charset="utf-8">
+				<title>JAVASCRIPT</title>
+		</head>
+		<body>
+				<script>
+					function mensaje_final(nota)
+					{
+						switch (nota)
+						{
+							case 'A':
+								return 'Perfecto';
+								break;
+							case 'B':
+												return 'Muy bien';
+								break;
+							case 'C':
+								return 'Bien';
+								break;
+							case 'D':
+								return 'Mal';
+								break;
+							default:
+								return 'MMmmmm, no sé yo';
+								break;
+						}
+					}
+
+					var resultado = mensaje_final('A');
+					console.log(resultado);
+//La impresión en la consola de 'A' es = a 'C','D',...
+					console.log(mensaje_final('C'));
+						console.log(mensaje_final('D'));
+						console.log(mensaje_final('XXX'));
+
+					function decorador(nombre, genero)
+					{
+						if (genero == 'M')
+						{
+							return 'Don' + ' ' + nombre;
+						}
+						else if (genero == 'F')
+						{
+							return 'Doña ' + nombre;
+						}
+						else
+						{
+							return 'Inserta M o F';
+						}
+					}
+					
+					console.log(decorador('Fernando', 'M'));		
+						
+				</script>
+		</body>
+</html>

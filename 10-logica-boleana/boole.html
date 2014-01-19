@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>JAVASCRIPT</title>
+	</head>
+	<body>
+		<script>
+		var edad = 199;
+		var tiempo_carrera = 10;
+		var es_deportista = true;
+		var es_fumador = false;
+		
+		//and "y" &&
+		console.log(es_deportista && es_fumador);
+
+		//or "o" ||
+		console.log(es_deportista || es_fumador);
+
+		if (es_deportista && edad > 80)
+		{
+			console.log('Gana un premio');
+		}
+
+		if (es_fumador && edad > 100)
+		{
+			console.log('Tiene mucha suerte');
+		}
+
+		if ((es_deportista && tiempo_carrera < 11) || (es_deportista && edad != 200))
+		{
+			console.log('Es muy rápido');
+		}
+		</script>
+	</body>
+</html>
