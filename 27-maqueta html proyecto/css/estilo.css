@@ -1,0 +1,50 @@
+body
+{
+	font-family: Monda, helvetica;
+	font-size: 18px;
+}
+h1
+{	
+	color: white;
+	font-weight: lighter;
+	vertical-align: middle;
+}
+
+.fila
+{
+	margin: 0.5em 0 0.5em 1em;
+}
+.personal
+{
+	background-color: #fdb45c;
+	display: inline-block;
+	margin: 0.8em 0 0.8em -1em;
+	padding: 1em;
+	vertical-align: top;
+	width: 100%;
+}
+.personal	 button
+{
+	float: right;
+}
+.personal img
+{
+	float: left;
+	margin: 0.4em;
+}
+.person-info
+{
+	float: left;
+}
+
+#encabezado
+{
+	background-color: #f16f51;
+	margin-top: -25px;
+	text-align: center;
+	padding: 0;
+}
+#resultados
+{
+	margin: 2em 1em 0.5em 0;
+}
